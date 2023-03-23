@@ -1,3 +1,4 @@
+(function ($) {
 $(".testimonial-carousel").owlCarousel({
     center: true,
     autoplay: true,
@@ -47,4 +48,4 @@ $(".service-carousel").owlCarousel({
         }
     }
 });
-
+})(jQuery);
